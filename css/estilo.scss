@@ -4,6 +4,9 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     color: white;
     text-align: center;
 }

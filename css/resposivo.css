@@ -1,0 +1,28 @@
+@media (max-width: 560px) {
+  main {
+    width: 300px;
+  }
+  .s-hero,
+  .ss-hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #altura,
+  #peso {
+    margin: 15px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=resposivo.css.map */
